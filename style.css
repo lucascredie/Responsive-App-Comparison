@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Mukta+Malar:300,400');
+
 body {
     font-family: 'Mukta Malar', sans-serif;
     color: rgb(39, 39, 39);
     margin: 0px;
 }
+
 .mainContainer {
-    width: 360px;
+    width: 340px;
     margin: 80px auto;
+    /* border: 1px solid grey; */
+    padding: 20px;
+
+    -webkit-box-shadow: 0px 5px 15px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 15px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 15px -4px rgba(0,0,0,0.75);
 }
 h1 {
     text-align: center;
@@ -17,6 +25,7 @@ p {
     text-align: center;
     font-size: 18px;
     font-weight: 300;
+    color: dimgrey;
 }
 
 .buttonBox {
@@ -30,7 +39,7 @@ p {
     display: inline-block;
     padding: 15px 0px;
     margin: 0px 5px;
-    width: 160px;
+    width: 140px;
     transition: 300ms;
 }
 .green {
@@ -41,5 +50,19 @@ p {
 }
 .mainButton:hover {
     transform: translateY(-5px);
+    transition: 300ms;
+}
+#githubLink {
+    display: block;
+    height: 50px;
+    margin: 0px auto;
+    text-align: center;
+    text-decoration: none;
+    color: dimgrey;
+    transition: 300ms;
+}
+#githubLink:hover {
+    color: rgb(255, 37, 121);
+    transform: scale(1.1,1.1);
     transition: 300ms;
 }

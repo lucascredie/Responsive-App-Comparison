@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+    background: #333;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+#showcase {
+    height: 460px;
+
+}
+.background-image {
+height: 450px;
+width: 100%;
+position: absolute;
+background: url("../images/pizzaBackground.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+z-index: -1;
+}

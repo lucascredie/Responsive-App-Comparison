@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar:100,200,300,400');
+body {
+    font-family: 'Mukta Malar', sans-serif;
+    margin: 0px;
+
+}
+nav {
+    background: rgb(31, 31, 31);
+}
+
+#logo {
+    color: white;
+    font-weight: 100;
+    margin: 0px;
+    /* font-size: 20px; */
+    padding: 10px 0px 10px 20px;
+    display: inline-block;
+}
+
+.backButton {
+    float: right;
+    text-decoration: none;
+    padding: 16px 42px;
+    color: white;
+}
+
+
+.green{background: green;} 
+.orange{background: orange}
+.blue{background: blue;} 
+
+.green, .orange, .blue {
+    height: 100px;
+    float: left;
+}

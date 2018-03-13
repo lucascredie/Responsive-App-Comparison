@@ -39,7 +39,7 @@ header {
     grid-column-start: 1;
     grid-column-end: 13;
 
-    background: url('../images/pizzaBackground.jpg');
+    background: url('../images_resized/pizzaBackground.jpg');
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -94,21 +94,21 @@ section {
 }
 
 .section-a {
-    background: url('../images/harvestingTomatoes.jpg');
+    background: url('../images_resized/harvestingTomatoes.jpg');
     background-position: center;
     background-size: cover;
   
 }
 
 .section-b {
-    background: rgba(0, 255, 128, 0.0) url('../images/ingredients.jpg');
+    background: rgba(0, 255, 128, 0.0) url('../images_resized/ingredients.jpg');
     background-position: center;
     background-size: cover;
     
 }
 
 .section-c {
-    background: url('../images/makingDoe.jpg');
+    background: url('../images_resized/makingDoe.jpg');
     background-position: center;
     background-size: cover;
 
@@ -116,21 +116,21 @@ section {
 
 .section-d {
     
-    background: url('../images/fullPizza2.jpg');
+    background: url('../images_resized/fullPizza2.jpg');
     background-position: center;
     background-size: cover;
   
 }
 
 .section-e {
-    background: rgba(0, 255, 128, 0.0) url('../images/pizzaCloseUp.jpg');
+    background: rgba(0, 255, 128, 0.0) url('../images_resized/pizzaCloseUp.jpg');
     background-position: center;
     background-size: cover;
     
 }
 
 .section-f {
-    background: url('../images/mint.jpg');
+    background: url('../images_resized/mint.jpg');
     background-position: center;
     background-size: cover;
 

@@ -25,11 +25,95 @@ nav {
 }
 
 
-.green{background: green;} 
-.orange{background: orange}
-.blue{background: blue;} 
-
 .green, .orange, .blue {
     height: 100px;
     float: left;
+}
+
+header {
+    height: 450px;
+    background: url('../images_resized/pizzaBackground.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.88);
+}
+.title {
+    color: white;
+    width: 320px;
+    margin: 0px auto;
+}
+h1 {
+    font-size: 3em;
+    padding: 45px;
+}
+.title p {
+    font-weight: 100;
+}
+
+.tryIt {
+    height: 40px;
+    width: 100px;
+    background: rgb(255, 60, 60);
+    border: 2px solid rgb(255, 60, 60);
+    color: white;
+    font-size: 14px;
+    transition: 300ms;
+   
+}
+.tryIt:hover {
+    border: 2px solid rgb(255, 70, 70);
+    color: #fff;
+    transform: scale(1.1,1.1);
+    transition: 300ms;
+}
+.tryIt:focus {outline:none;}
+
+main section {
+    height: 350px;
+    float: left;
+    border: 15px solid white;
+    /* margin: 10px; */
+}
+.section-a {
+    background: url('../images_resized/harvestingTomatoes.jpg');
+    background-position: center;
+    background-size: cover;
+  
+}
+
+.section-b {
+    background: rgba(0, 255, 128, 0.0) url('../images_resized/ingredients.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.section-c {
+    background: url('../images_resized/makingDoe.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.section-d {
+    
+    background: url('../images_resized/fullPizza2.jpg');
+    background-position: center;
+    background-size: cover;
+  
+}
+
+.section-e {
+    background: rgba(0, 255, 128, 0.0) url('../images_resized/pizzaCloseUp.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.section-f {
+    background: url('../images_resized/mint.jpg');
+    background-position: center;
+    background-size: cover;
+
 }

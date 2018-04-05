@@ -97,14 +97,14 @@ section {
     background: url('../images_resized/harvestingTomatoes.jpg');
     background-position: center;
     background-size: cover;
-  
+    /* grid-row-start: span 2; */
 }
 
 .section-b {
     background: rgba(0, 255, 128, 0.0) url('../images_resized/ingredients.jpg');
     background-position: center;
     background-size: cover;
-    
+    /* grid-column-start: span 8; */
 }
 
 .section-c {
@@ -126,14 +126,22 @@ section {
     background: rgba(0, 255, 128, 0.0) url('../images_resized/pizzaCloseUp.jpg');
     background-position: center;
     background-size: cover;
-    
+    /* grid-column-start: span 8; */
 }
 
 .section-f {
     background: url('../images_resized/mint.jpg');
     background-position: center;
     background-size: cover;
+    
+}
 
+.section-a {
+    /* grid-row-start: span 2; */
+}
+
+.section-b, .section-e {
+    /* grid-column-start: span 8; */
 }
 
 
